@@ -1,13 +1,121 @@
 body{
     background-color: purple;
+    font-family: Arial;
+    color: white;
+    max-width: 1100px;
+    margin: 0 auto;
 }
-img{
-    width: 300px;
+
+ul{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px
+}
+
+header h1{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin-right: 10px;
+}
+
+.home-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-main{
+    display: flex;
+}
+
+main .about-left{
+    margin-right: 20px;
+}
+
+main img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-left, .home-right, .about-left, .about-right{
+    width: 48%;
+}
+
+.home-right{
     height: 300px;
+}
+
+.home-left{
+    margin-right: 20px;
+}
+
+.home-right img{
+    height: 100%;
+    object-fit: cover;
+}
+
+main h2{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.about-mom{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.hobbies-wrapper{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+main.hobby-main h2{
+    text-align: center;
+}
+
+.about-card, .hobby-card{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.hobby-card{
+    width: 30%;
+}
+
+.about-card .card-img{
+    width: 200px;
+    height: 200px;
+}
+
+.hobby-card .card-img{
+    height: 200px;
+}
+
+.about-card img, .hobby-card  img{
+    object-fit: cover;
+}
+
+img{
+    width: 100%;
 }
 
 a{
     color: white;
+    text-decoration: none;
 }
 footer p{
     text-align: center;
